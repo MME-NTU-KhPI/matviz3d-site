@@ -1,6 +1,9 @@
 .container{
     color: white;
 }
+.content{
+    flex: 1;
+}
 
 .main-left p{
     font-size: 2.3vh;

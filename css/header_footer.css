@@ -1,3 +1,7 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: 0.2s;
@@ -58,11 +62,11 @@
 }
 
 footer {
-    position: fixed;
     height: 10vh;
     width: 100%;
     bottom: 0;
     background-color: black;
+    flex-shrink: 0;
 }
 
 @media (max-width: 1197px) {
