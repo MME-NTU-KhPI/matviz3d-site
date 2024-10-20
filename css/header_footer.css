@@ -62,13 +62,59 @@ html, body{
 }
 
 footer {
-    height: 10vh;
+    margin-top: 5vh;
+    height: max-content;
     width: 100%;
     bottom: 0;
     background-color: black;
     flex-shrink: 0;
+    display: flex !important;
+    flex-direction: row !important;
 }
 
+.left-footer-cont{
+    width: 70%;
+}
+
+.footer-content{
+    width: 37%;
+    font-size: medium;
+    margin-top: 1vh !important;
+}
+
+.footer-content a{
+    font-size: x-large;
+    color: white;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px;
+
+}
+
+.right-footer-cont{
+    width: 30%;
+    display: flex !important;
+    justify-content: end !important;
+}
+
+.footer-links{
+    margin-top: 1vh;
+    font-size: medium;
+    color: white;
+    display: flex;
+    gap: 4vh;
+}
+.footer-links a{
+    color: white;
+}
+
+.footer-links a:hover{
+    color: rgb(173, 173, 173);
+}
+
+.footer-content a:hover{
+    color: rgb(173, 173, 173);
+}
 @media (max-width: 1197px) {
     .language-button {
         display: none;
