@@ -54,13 +54,6 @@
 .download-button:hover, .download-button-ua:hover{
     background-color:#435c59;
 }
-footer{
-    position:fixed;
-    height: 10vh;
-    width: 100%;
-    bottom: 0;
-    background-color: black;
-}
 a{
     text-decoration: none !important;
 }

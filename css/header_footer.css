@@ -1,10 +1,9 @@
-
-.navbar-dark .navbar-nav  .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: 0.2s;
 }
 
-.navbar-dark .navbar-nav  .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(173, 173, 173);
 }
 
@@ -53,14 +52,25 @@
     background-color: #4C6965;
     color: white;
 }
-.language-button-mobile{
+
+.language-button-mobile {
     display: none;
 }
+
+footer {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+}
+
 @media (max-width: 1197px) {
-    .language-button{
+    .language-button {
         display: none;
     }
-    .language-button-mobile{
+
+    .language-button-mobile {
         display: block;
     }
 }
