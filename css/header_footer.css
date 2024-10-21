@@ -104,6 +104,9 @@ footer {
     color: white;
     display: flex;
     gap: 4vh;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px;
 }
 .footer-links a{
     color: white;
@@ -126,5 +129,8 @@ footer {
     }
     .footer-links{
         flex-direction: column;
+    }
+    .footer-content{
+        width: 65%;
     }
 }
