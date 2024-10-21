@@ -111,6 +111,7 @@
     }
     .how-to-use-gif{
         width: 100%;
+        height: min-content;
     }
     .list-cont{
         margin-right: 3rem;
