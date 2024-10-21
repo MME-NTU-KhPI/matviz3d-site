@@ -124,4 +124,7 @@ footer {
     .language-button-mobile {
         display: block;
     }
+    .footer-links{
+        flex-direction: column;
+    }
 }
