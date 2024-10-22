@@ -1,21 +1,185 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Instructions</title>
+<html lang="uk">
 
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Як користуватися</title>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-   <h2>INSTRUCTIONS PAGE</h2>
-  </body>
+  <link href="../css/header_footer.css" rel="stylesheet" />
+  <link href="../css/instructions.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: #eaf5ff; height: 100vh"
+  class="ink-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-header pl-5 pr-5 pt-3 pb-3 border-bottom border-dark">
+      <a class="navbar-brand" href="../html/home_ua.html">
+        <img src="../img/matico.png" alt="" width="35" height="35" class="d-inline-block align-text-top" />
+        MatViz3D
+      </a>
+      <li class="language-button-mobile nav-item ml-auto mr-3">
+        <div class="dropdown">
+          <button class="btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="../img/globe-icon.png" alt="" class="globe-icon" />
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li class="dropdown-item">
+              <a class="dropdown-item first enable" href="../html/instructions_en.html">EN</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-item" href="../html/instructions_ua.html">UA</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="../html/home_ua.html">Головна</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="about_ua.html">Про проєкт</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering active" href="instructions_ua.html">Як користуватися</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="downloads_ua.html">Версії та встановлення</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="publications_ua.html">Наукові публікації</a>
+          </li>
+          <li class="language-button nav-item ml-1 mr-1">
+            <div class="dropdown">
+              <button class="btn d-flex align-items-center" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../img/globe-icon.png" alt="" class="globe-icon" />
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li class="dropdown-item">
+                  <a class="dropdown-item first" href="instructions_en.html">EN</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-item enable" href="instructions_ua.html">UA</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <div class="main-heading-cont">
+      <p class="main-heading">
+        Спеціальний додаток MatViz3D був розроблений для комп'ютерного моделювання процесу кристалізації та генерації
+        мікроструктур. Основні переваги додатку: тривимірна генерація мікроструктур, що дозволяє дослідникам отримувати
+        детальні та реалістичні зображення структури матеріалу, вибір сусідства клітин для різноманітності генерації та
+        можливість спостереження за поетапним процесом кристалізації. Загалом, MatViz3D є потужним інструментом для
+        моделювання, аналізу та візуалізації мікроструктур матеріалів, використовуючи різноманітні підходи та техніки.
+      </p>
+    </div>
+    <div class="heading-cont">
+      <p class="heading">Інструкції з використання програми</p>
+    </div>
+    <div class="main-cont">
+      <div class="left-cont">
+        <div class="list-cont">
+          <ol>
+            <li>
+              <span class="instruction-text">Запустіть додаток</span>
+            </li>
+            <li>
+              <span class="instruction-text">Введіть розмір куба та кількість початкових точок</span>
+            </li>
+            <li>
+              <span class="instruction-text">Виберіть алгоритм для аналізу мікроструктури матеріалу та натисніть кнопку "START"</span>
+            </li>
+            <li>
+              <span class="instruction-text">Ознайомтеся з тривимірною візуалізацією мікроструктури. Збільшуйте та обертайте для детального перегляду</span>
+            </li>
+            <li>
+              <span class="instruction-text">Зберігайте зображення для документації</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="right-cont">
+        <div class="gif-cont">
+          <img src="../img/how-to-use.gif " class="how-to-use-gif" />
+        </div>
+      </div>
+    </div>
+    <div class="heading-cont">
+      <p class="heading">Приклади</p>
+    </div>
+    <div class="heading-cont">
+      <p class="subtitle">Аналіз структури матеріалу за допомогою алгоритмів</p>
+    </div>
+    <div class="show-button-cont">
+      <button class="show-button" id="show-button"></button>
+      <label for="show-button" class="show-button-arrow" id="show-button-arrow">^</label>
+    </div>
+    <div class="gifs-cont">
+      <div class="methods-gifs-cont" id="methods-gifs-cont">
+        <div class="method-cont">
+          <img class="method-gif" src="../img/von Neumann.gif" />
+          <p>фон Нейман</p>
+        </div>
+        <div class="method-cont">
+          <img class="method-gif" src="../img/Probability Circle.gif" />
+          <p>Ймовірнісне коло</p>
+        </div>
+        <div class="method-cont">
+          <img class="method-gif" src="../img/Probability Ellipse.gif" />
+          <p>Ймовірнісний еліпс</p>
+        </div>
+        <div class="method-cont">
+          <img class="method-gif" src="../img/Moore.gif" />
+          <p>Мур</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="border-top border-dark">
+    <div class="left-footer-cont">
+      <div class="footer-content ml-5">
+        <a href="https://github.com/MME-NTU-KhPI/MatViz3D" target="_blank">
+          MatViz3D
+        </a>
+        <p>
+          Кафедра математичного моделювання та інтелектуальних обчислень у
+          інженерії (ММІ), НТУ "ХПІ", вул. 2 Кирпичова, м. Харків, Україна, 61002
+        </p>
+        <p>post.matviz3d@gmail.com</p>
+      </div>
+    </div>
+    <div class="right-footer-cont">
+      <div class="footer-links mr-5">
+        <a href="https://web.kpi.kharkov.ua/dpm/uk/istoriya-kafedri/">
+          Про кафедру
+        </a>
+        <a href="#"> Команда </a>
+        <a href="https://web.kpi.kharkov.ua/dpm/uk/kontaktna-informatsiya-kafedri/">
+          Контакти
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="../js/show-button.js"></script>
+
 </html>
