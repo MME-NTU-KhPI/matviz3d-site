@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
 
-    <link href="css/header_footer.css" rel="stylesheet" />
-    <link href="css/home.css" rel="stylesheet" />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Home</title>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+  <link href="css/header_footer.css" rel="stylesheet" />
+  <link href="css/home.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 
-  <body
-    style="
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="
       color: white;
       background: linear-gradient(
         126deg,
@@ -35,168 +32,132 @@
       min-height: 100vh;
       margin: 0;
       padding: 0;
-    "
-    class="ink-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-  >
-    <header>
-      <nav
-        class="navbar navbar-expand-xl navbar-dark bg-header pl-5 pr-5 pt-3 pb-3 border-bottom border-dark"
-      >
-        <a class="navbar-brand" href="home_en.html">
-          <img
-            src="img/matico.png"
-            alt=""
-            width="35"
-            height="35"
-            class="d-inline-block align-text-top"
-          />
-          MatViz3D
-        </a>
-        <li class="language-button-mobile nav-item ml-auto mr-3">
-          <div class="dropdown">
-            <button
-              class="btn d-flex align-items-center"
-              type="button"
-              id="dropdownMenuButton"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img src="img/globe-icon.png" alt="" class="globe-icon" />
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li class="dropdown-item">
-                <a class="dropdown-item first enable" href="../home_en.html"
-                  >EN</a
-                >
-              </li>
-              <li class="dropdown-item">
-                <a class="dropdown-item" href="html/home_ua.html">UA</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active ml-1 mr-1">
-              <a class="nav-link hovering" href="home_en.html">Home</a>
+    " class="ink-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-header pl-5 pr-5 pt-3 pb-3 border-bottom border-dark">
+      <a class="navbar-brand" href="home_en.html">
+        <img src="img/matico.png" alt="" width="35" height="35" class="d-inline-block align-text-top" />
+        MatViz3D
+      </a>
+      <li class="language-button-mobile nav-item ml-auto mr-3">
+        <div class="dropdown">
+          <button class="btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="img/globe-icon.png" alt="" class="globe-icon" />
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li class="dropdown-item">
+              <a class="dropdown-item first enable" href="../home_en.html">EN</a>
             </li>
-            <li class="nav-item ml-1 mr-1">
-              <a class="nav-link hovering" href="html/about_en.html">About</a>
-            </li>
-            <li class="nav-item ml-1 mr-1">
-              <a class="nav-link hovering" href="html/instructions_en.html"
-                >How To Use</a
-              >
-            </li>
-            <li class="nav-item ml-1 mr-1">
-              <a class="nav-link hovering" href="html/downloads_en.html"
-                >Versions & Installation</a
-              >
-            </li>
-            <li class="nav-item ml-1 mr-1">
-              <a class="nav-link hovering" href="html/publications_en.html"
-                >Scientific Publications</a
-              >
-            </li>
-            <li class="language-button nav-item ml-1 mr-1">
-              <div class="dropdown">
-                <button
-                  class="btn d-flex align-items-center"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <img src="img/globe-icon.png" alt="" class="globe-icon" />
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li class="dropdown-item">
-                    <a class="dropdown-item first enable" href="#">EN</a>
-                  </li>
-                  <li class="dropdown-item">
-                    <a class="dropdown-item" href="html/home_ua.html">UA</a>
-                  </li>
-                </ul>
-              </div>
+            <li class="dropdown-item">
+              <a class="dropdown-item" href="html/home_ua.html">UA</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-    <div class="content">
-      <div class="heading-cont">
-        <h3 class="h3 ml-5 mt-5">
-          Tool for 3D modeling and visualization of microstructures
-        </h3>
-        <br />
-      </div>
-      <div class="cont">
-        <div class="main-left">
-          <br />
-          <div class="text-cont">
-            <p class="ml-5">
-              It is a powerful software for creating and visualizing
-              microstructures using cellular automata. The tool allows you to
-              model complex structures of materials, animation of the process of
-              their formation and detailed analysis.
-            </p>
-          </div>
-          <div class="main-right-mobile">
-            <div class="cube-pic-cont">
-              <img src="img/cube-pic.png" alt="" class="cube-pic" />
+      </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ml-1 mr-1">
+            <a class="nav-link hovering" href="home_en.html">Home</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="html/about_en.html">About</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="html/instructions_en.html">How To Use</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="html/downloads_en.html">Versions & Installation</a>
+          </li>
+          <li class="nav-item ml-1 mr-1">
+            <a class="nav-link hovering" href="html/publications_en.html">Scientific Publications</a>
+          </li>
+          <li class="language-button nav-item ml-1 mr-1">
+            <div class="dropdown">
+              <button class="btn d-flex align-items-center" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/globe-icon.png" alt="" class="globe-icon" />
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li class="dropdown-item">
+                  <a class="dropdown-item first enable" href="#">EN</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-item" href="html/home_ua.html">UA</a>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="button-cont">
-            <a target="_blank" href="https://github.com/MME-NTU-KhPI/MatViz3D">
-              <button class="download-button ml-5"></button>
-            </a>
-          </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <div class="heading-cont">
+      <h3 class="h3 ml-5 mt-5">
+        Tool for 3D modeling and visualization of microstructures
+      </h3>
+      <br />
+    </div>
+    <div class="cont">
+      <div class="main-left">
+        <br />
+        <div class="text-cont">
+          <p class="ml-5">
+            It is a powerful software for creating and visualizing
+            microstructures using cellular automata. The tool allows you to
+            model complex structures of materials, animation of the process of
+            their formation and detailed analysis.
+          </p>
         </div>
-        <div class="main-right">
+        <div class="main-right-mobile">
           <div class="cube-pic-cont">
             <img src="img/cube-pic.png" alt="" class="cube-pic" />
           </div>
         </div>
+        <div class="button-cont">
+          <a target="_blank" href="https://github.com/MME-NTU-KhPI/MatViz3D">
+            <button class="download-button ml-5"></button>
+          </a>
+        </div>
+      </div>
+      <div class="main-right">
+        <div class="cube-pic-cont">
+          <img src="img/cube-pic.png" alt="" class="cube-pic" />
+        </div>
       </div>
     </div>
-    <footer class="border-top border-dark">
-      <div class="left-footer-cont">
-        <div class="footer-content ml-5">
-          <a href="https://github.com/MME-NTU-KhPI/MatViz3D" target="_blank">
-            MatViz3D
-          </a>
-          <p>
-            Department of Mathematical Modeling and Intelligent Computing in
-            Engineering (MMI), NTU "KhPI", st. 2 Kyrpychova Ave., c. Kharkiv,
-            Ukraine, 61002
-          </p>
-          <p>post.matviz3d@gmail.com</p>
-        </div>
+  </div>
+  <footer class="border-top border-dark">
+    <div class="left-footer-cont">
+      <div class="footer-content ml-5">
+        <a href="https://github.com/MME-NTU-KhPI/MatViz3D" target="_blank">
+          MatViz3D
+        </a>
+        <p>
+          Department of Mathematical Modeling and Intelligent Computing in
+          Engineering (MMI), NTU "KhPI", st. 2 Kyrpychova Ave., c. Kharkiv,
+          Ukraine, 61002
+        </p>
+        <p>post.matviz3d@gmail.com</p>
       </div>
-      <div class="right-footer-cont">
-        <div class="footer-links mr-5">
-          <a href="https://web.kpi.kharkov.ua/dpm/uk/istoriya-kafedri/">
-            About the Department
-          </a>
-          <a href="#"> Team </a>
-          <a
-            href="https://web.kpi.kharkov.ua/dpm/uk/kontaktna-informatsiya-kafedri/"
-          >
-            Contact
-          </a>
-        </div>
+    </div>
+    <div class="right-footer-cont">
+      <div class="footer-links mr-5">
+        <a href="https://web.kpi.kharkov.ua/dpm/uk/istoriya-kafedri/">
+          About the Department
+        </a>
+        <a href="#"> Team </a>
+        <a href="https://web.kpi.kharkov.ua/dpm/uk/kontaktna-informatsiya-kafedri/">
+          Contact
+        </a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
