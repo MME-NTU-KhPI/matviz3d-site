@@ -96,6 +96,7 @@
 }
 .subtitle{
     font-size: 2vh;
+    text-align: center;
 }
 .show-button-cont{
     display: flex;
