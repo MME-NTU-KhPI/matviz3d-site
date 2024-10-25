@@ -20,6 +20,9 @@ html, body{
     display: flex;
     flex-direction: column;
 }
+.logo{
+    height: 4vh;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: 0.2s;
