@@ -21,11 +21,11 @@ html, body{
     flex-direction: column;
 }
 .logo{
-    height: 4vh;
+    height: 2.4rem;
 }
 .navbar-dark .navbar-nav .nav-link  {
     color: white;
-    transition: 0.2s;
+    transition: opacity ease-in 0.2s;
 }
 .active{
     text-decoration: underline;
@@ -44,16 +44,19 @@ html, body{
 }
 
 .navbar .navbar-brand {
-    font-size: 2.7vh;
+    font-size: 1.7rem;
 }
 
 .nav-link {
-    font-size: 1.9vh;
+    font-size: 1.1rem;
+}
+.li{
+    padding: 0;
 }
 
 .globe-icon {
-    width: 4.5vh;
-    height: 4.5vh;
+    width: 3rem;
+    height: 3rem;
 }
 
 .dropdown .btn {
@@ -65,8 +68,8 @@ html, body{
 }
 
 .dropdown .dropdown-menu {
-    min-width: 5vh;
-    width: 5vh;
+    min-width: 3.2rem;
+    width: 3.2rem;
     padding: 0;
     border-radius: 0%;
 }
@@ -90,7 +93,7 @@ html, body{
 }
 
 footer {
-    margin-top: 5vh;
+    margin-top: 3rem;
     height: max-content;
     width: 100%;
     bottom: 0;
@@ -107,12 +110,12 @@ footer {
 
 .footer-content{
     width: 37%;
-    font-size: medium;
-    margin-top: 1vh !important;
+    font-size: 1rem;
+    margin-top: 1rem !important;
 }
 
 .footer-content a{
-    font-size: x-large;
+    font-size: 1.5rem;
     color: white;
     text-decoration: underline !important;
     text-decoration-thickness: 1px !important;
@@ -127,11 +130,11 @@ footer {
 }
 
 .footer-links{
-    margin-top: 1vh;
-    font-size: medium;
+    margin-top: 1rem;
+    font-size: 1rem;
     color: white;
     display: flex;
-    gap: 4vh;
+    gap: 2.5rem;
     text-decoration: underline !important;
     text-decoration-thickness: 1px !important;
     text-underline-offset: 3px;

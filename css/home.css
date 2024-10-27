@@ -6,9 +6,9 @@
 }
 
 .main-left p{
-    font-size: 2.4vh;
+    font-size: 1.5rem;
     width: 60%;
-    line-height: 3.6vh;
+    line-height: 2.1rem;
 }
 .cont{
     display: flex;
@@ -21,18 +21,18 @@
     width: 50%;
 }
 .cube-pic{
-    width: 60vh;
+    width: 35rem;
 }
 .download-button{
-    width: 25vh;
+    width: max-content;
     background-color: #4C6965;
     color: white;
     border: none;
     border-radius: 2vh;
-    font-size: 2.3vh;
+    font-size: 1.4rem;
     padding: 1.5vh;
     margin-top: 5vh;
-    transition: 0.2s;
+    transition: opacity 0.2s;
 }
 .download-button-ua{
     width: 25vh;
