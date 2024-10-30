@@ -87,6 +87,85 @@ ol li::before {
     display: flex;
     justify-content: center;
 }
+
+.heading-container{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.algo-card{
+    height: 30rem;
+    width: 18rem;
+    background-color: white;
+    border-radius: 2rem; 
+    box-shadow: 0 0.5vh 0.5vh 0 rgba(0, 0, 0, 0.308);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-heading-container{
+    height: 18%;
+}
+
+.card-heading{
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.card-text-container{
+    height: 48%;
+}
+
+.card-text{
+    font-size: 1rem;
+    color:black;
+    text-align: center;
+}
+
+.img-container{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.img-card{
+    height: 100%;
+    border: 1px solid black;
+}
+
+.details-link-container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 0.3rem;
+}
+
+.details-link{
+    font-size: 1.1rem;
+    color: #4C6965 !important;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 1197px) {
     .infopole{
         flex-direction: column;
@@ -108,3 +187,4 @@ ol li::before {
         width: 100%;
     }
 }
+

@@ -165,3 +165,16 @@ footer {
         width: 65%;
     }
 }
+
+@media (min-width:1920px){
+    .content{
+        max-width: 1600px;
+    }
+
+    .ultrawide{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
