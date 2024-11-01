@@ -43,7 +43,7 @@
     font-size: 2vh;
     padding: 1.5vh;
     margin-top: 5vh;
-    transition: 0.2s;
+    transition: opacity 0.2s;
 }
 .download-button-ua::before{
     content: 'Завантажити на GitHub';
