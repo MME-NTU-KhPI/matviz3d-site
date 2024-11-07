@@ -100,7 +100,6 @@ html, body{
 }
 
 footer {
-    margin-top: 3rem;
     height: max-content;
     width: 100%;
     bottom: 0;
@@ -109,6 +108,7 @@ footer {
     display: flex !important;
     flex-direction: row !important;
     color: white;
+    margin-top: auto;
 }
 
 .left-footer-cont{

@@ -1,0 +1,44 @@
+.content{
+    margin-bottom: auto;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.heading{
+    font-size: 1.3rem;
+}
+
+.infopole{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.algo-text-container{
+    width: 70%;
+    padding-right: 2rem;
+}
+
+.algo-text{
+    font-size: 1.1rem;
+
+}
+
+.algo-img-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+.algo-img{
+    min-width: 80%;
+    max-width: 80%;
+    max-height: auto;
+    min-height: auto;
+}
