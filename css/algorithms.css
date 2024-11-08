@@ -6,10 +6,14 @@
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
 }
 
 .heading{
     font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .infopole{
@@ -20,7 +24,7 @@
 }
 
 .algo-text-container{
-    width: 70%;
+    width: 70vw;
     padding-right: 2rem;
 }
 
@@ -33,12 +37,29 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 30%;
+    flex-wrap: wrap;
+    width: 30vw;
 }
 
 .algo-img{
-    min-width: 80%;
-    max-width: 80%;
-    max-height: auto;
-    min-height: auto;
+width: 25rem;
+height: fit-content;
+}
+@media (max-width: 1198px) {
+    .infopole{
+        flex-direction: column-reverse;
+        
+    }
+    .algo-text-container{
+        width: 100%;
+        padding: 0;
+    }
+    .algo-img-container{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .algo-img{
+        width: 100%;
+        height: fit-content;
+    }
 }
