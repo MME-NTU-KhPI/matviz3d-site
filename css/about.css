@@ -145,7 +145,6 @@ ol li::before {
 
 .img-card {
     height: 100%;
-    border: 1px solid black;
 }
 
 .details-link-container {
@@ -166,7 +165,7 @@ ol li::before {
 .cards-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 3rem;
     margin-right: 3rem;
     flex-wrap: wrap;
