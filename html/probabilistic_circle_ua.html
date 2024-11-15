@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Moore</title>
+  <title>Probabilistic Circle</title>
   <link rel="icon" href="../img/favicon.ico" sizes="256x256" />
   <link href="../css/header_footer.css" rel="stylesheet" />
   <link href="../css/algorithms.css" rel="stylesheet" />
@@ -25,7 +25,7 @@
     " class="ink-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
   <header>
     <nav class="navbar navbar-expand-xl navbar-dark bg-header pl-5 pr-5 pt-3 pb-3 border-bottom border-dark">
-      <a class="navbar-brand" href="home_en.html">
+      <a class="navbar-brand" href="home_ua.html">
         <img src="../img/matico.png" alt="" class="d-inline-block align-text-top logo" />
         MatViz3D
       </a>
@@ -37,10 +37,10 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li class="dropdown-item">
-              <a class="dropdown-item first enable" href="moore.html">EN</a>
+              <a class="dropdown-item first" href="probabilistic_circle.html">EN</a>
             </li>
             <li class="dropdown-item">
-              <a class="dropdown-item" href="moore_ua.html">UA</a>
+              <a class="dropdown-item enable" href="probabilistic_circle_ua.html">UA</a>
             </li>
           </ul>
         </div>
@@ -52,19 +52,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ml-1 mr-1">
-            <a class="nav-link hovering" href="home_en.html">Home</a>
+            <a class="nav-link hovering" href="../html/home_ua.html">Головна</a>
           </li>
           <li class="nav-item ml-1 mr-1">
-            <a class="nav-link hovering" href="about_en.html">About</a>
+            <a class="nav-link hovering" href="../html/about_ua.html">Про проєкт</a>
           </li>
           <li class="nav-item ml-1 mr-1">
-            <a class="nav-link hovering" href="instructions_en.html">How to use</a>
+            <a class="nav-link hovering" href="../html/instructions_ua.html">Як користуватися</a>
           </li>
           <li class="nav-item ml-1 mr-1">
-            <a class="nav-link hovering" href="downloads_en.html">Versions & installation</a>
+            <a class="nav-link hovering" href="../html/downloads_ua.html">Версії та встановлення</a>
           </li>
           <li class="nav-item ml-1 mr-1">
-            <a class="nav-link hovering" href="publications_en.html">Publications</a>
+            <a class="nav-link hovering" href="../html/publications_ua.html">Публікації</a>
           </li>
           <li class="language-button nav-item ml-1 mr-1">
             <div class="dropdown">
@@ -74,10 +74,10 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li class="dropdown-item">
-                  <a class="dropdown-item first enable" href="moore.html">EN</a>
+                  <a class="dropdown-item first" href="probabilistic_circle.html">EN</a>
                 </li>
                 <li class="dropdown-item">
-                  <a class="dropdown-item" href="moore_ua.html">UA</a>
+                  <a class="dropdown-item enable" href="probabilistic_circle_ua.html">UA</a>
                 </li>
               </ul>
             </div>
@@ -89,35 +89,28 @@
   <div class="ultrawide">
     <div class="content">
       <div class="heading-container">
-        <p class="heading">Moore Cellular Automaton</p>
+        <p class="heading">Клітинний автомат Імовірнісний круг</p>
       </div>
       <div class="infopole">
         <div class="algo-text-container">
           <p class="algo-text">
-            Occurrence:<br /><br />
-            Moore's cellular automaton was proposed and developed by American
-            physicist Edward Fredkin Moore in 1962. This type of cellular
-            automaton is one of the most common and researched in the field of
-            research on complex systems and artificial life.<br /><br />
-            Principle of operation:<br /><br />
-            In Moore's cellular automaton, each cell (if it is not marginal)
-            has 26 neighbors, since the cell is the neighbor of the grain (the
-            original cell) if it shares a side, or vertex, with it. An example
-            of filling is shown in Figure 2. The future state of the cell
-            itself depends on the state of the grain and the condition of its
-            neighbors:<br /><br />y’[k][i][j] = f(y[k][i][j], y[k + 1][i][j],
-            y[k + 1][i][j - 1], y[k + 1][i][j + 1], y[k + 1][i + 1][j], y[k +
-            1][i + 1][j - 1], y[k + 1][i + 1][j + 1], y[k + 1][i - 1][j], y[k
-            + 1][i - 1][j - 1], y[k + 1][i -1][j + 1], y[k][i][j], y[k][i][j -
-            1], y[k][i][j + 1], y[k][i + 1][j], y[k][i + 1][j - 1], y[k][i +
-            1][j + 1], y[k][i - 1][j], y[k][i - 1][j - 1], y[k][i -1][j + 1],
-            y[k - 1][i][j], y[k - 1][i][j - 1], y[k - 1][i][j + 1], y[k - 1][i
-            + 1][j], y[k - 1][i + 1][j - 1], y[k - 1][i + 1][j + 1], y[k -
-            1][i - 1][j], y[k - 1][i - 1][j - 1], y[k - 1][i -1][j + 1])  
+            Виникнення:  
+            <br><br>
+            Імовірнісний круг (Probabilistic Cellular Automaton) є модифікацією класичного клітинного автомата, де
+            введені випадкові або імовірнісні елементи. Концепція використання ймовірностей у клітинних автоматах
+            досліджувалась протягом багатьох років. Одним із ранніх досліджень у цій галузі є робота Джона Хопфілда
+            (John Hopfield) та Нансі Хеміль (Nancy H. Himmel) у 1986 році, де вони запропонували модель імовірнісного
+            клітинного автомата для моделювання нейронних мереж.   
+            <br><br>
+            Принцип роботи:  
+            <br><br>
+            Кількість сусідів зерна(вихідної клітини) та відповідно принцип сусідства такий же, як і у клітинному
+            автоматі Мура. Але відмінність складається у тому, що у кожному сусіду надається вірогідність з якою він
+            буде заповнений.
           </p>
         </div>
         <div class="algo-img-container">
-          <img class="algo-img" src="../img/moore.png" />
+          <img class="algo-img" src="../img/Probability-Circle.png" />
         </div>
       </div>
     </div>
@@ -130,9 +123,9 @@
           MatViz3D
         </a>
         <p>
-          Department of Mathematical Modeling and Intelligent Computing in
-          Engineering (MMI), NTU "KhPI", st. 2 Kyrpychova Ave., c. Kharkiv,
-          Ukraine, 61002
+          Кафедра математичного моделювання та інтелектуальних обчислень в
+          інженерії (ММІ), НТУ "ХПІ", вул. Кирпичова, 2, м. Харків, Україна,
+          61002
         </p>
         <p>oleksii.vodka@khpi.edu.ua</p>
       </div>
@@ -140,11 +133,11 @@
     <div class="right-footer-cont">
       <div class="footer-links mr-5">
         <a href="https://web.kpi.kharkov.ua/dpm/uk/istoriya-kafedri/">
-          About the Department
+          Про кафедру
         </a>
-        <a href="team_en.html"> Team </a>
+        <a href="team_ua.html"> Команда </a>
         <a href="https://web.kpi.kharkov.ua/dpm/uk/kontaktna-informatsiya-kafedri/">
-          Contact
+          Контакти
         </a>
       </div>
     </div>
