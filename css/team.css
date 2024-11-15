@@ -1,0 +1,17 @@
+.content{
+    flex: 1 0 auto;
+    width: 100%;
+}
+.heading-cont{
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.members-cont{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
