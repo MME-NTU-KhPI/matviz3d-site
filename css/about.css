@@ -196,4 +196,8 @@ ol li::before {
     .qwe {
         width: 100%;
     }
+
+    .cards-container {
+        justify-content: center;
+    }
 }

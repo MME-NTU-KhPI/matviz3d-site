@@ -59,7 +59,7 @@ height: fit-content;
         margin-bottom: 1rem;
     }
     .algo-img{
-        width: 100%;
-        height: fit-content;
+        height: 20rem;
+        width: 25rem;
     }
 }
