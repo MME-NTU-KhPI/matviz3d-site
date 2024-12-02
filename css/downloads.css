@@ -2,11 +2,45 @@
     flex: 1 0 auto;
     width: 100%;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+}
+.howto{
+    text-align: center;
+    color:rgb(138, 138, 138);
+    margin-top: 1rem;
+}
+.howto:hover{
+    color:rgb(0, 0, 0) !important;
+}
 .heading-cont {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.heading-cont2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
 }
 
 .heading {
@@ -20,11 +54,9 @@
 
 .subtitle2 {
     font-size: 1.5rem;
-    margin-top: 10rem;
 }
-
 .description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: -0.03rem;
 }
 .description a:hover{

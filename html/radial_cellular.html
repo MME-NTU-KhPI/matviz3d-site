@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Downloads</title>
+    <title>Radial cellular</title>
     <link rel="icon" href="../img/favicon.ico" sizes="256x256" />
-
     <link href="../css/header_footer.css" rel="stylesheet" />
-    <link href="../css/downloads.css" rel="stylesheet" />
+    <link href="../css/algorithms.css" rel="stylesheet" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,7 +20,12 @@
   </head>
 
   <body
-    style="background-color: #eaf5ff; background-size: 10rem; height: 100vh"
+    style="
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #9fd6d2;
+    "
     class="ink-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
   >
     <header>
@@ -49,14 +53,12 @@
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li class="dropdown-item">
-                <a
-                  class="dropdown-item first enable"
-                  href="../html/downloads_en.html"
+                <a class="dropdown-item first enable" href="von_neumann.html"
                   >EN</a
                 >
               </li>
               <li class="dropdown-item">
-                <a class="dropdown-item" href="../html/downloads_ua.html">UA</a>
+                <a class="dropdown-item" href="von_neumann_ua.html">UA</a>
               </li>
             </ul>
           </div>
@@ -85,7 +87,7 @@
                 >How to use</a
               >
             </li>
-            <li class="nav-item ml-1 mr-1 active">
+            <li class="nav-item ml-1 mr-1">
               <a class="nav-link hovering" href="downloads_en.html"
                 >Versions & installation</a
               >
@@ -110,12 +112,12 @@
                   <li class="dropdown-item">
                     <a
                       class="dropdown-item first enable"
-                      href="downloads_en.html"
+                      href="von_neumann.html"
                       >EN</a
                     >
                   </li>
                   <li class="dropdown-item">
-                    <a class="dropdown-item" href="downloads_ua.html">UA</a>
+                    <a class="dropdown-item" href="von_neumann_ua.html">UA</a>
                   </li>
                 </ul>
               </div>
@@ -126,59 +128,30 @@
     </header>
     <div class="ultrawide">
       <div class="content">
-        <div class="page">
-          <div class="heading-cont">
-            <p class="heading">Installation</p>
-          </div>
-          <div class="main-cont ml-5 mr-5">
-            <p class="subtitle">Current Stable Version</p>
-            <p class="description">
-              The current stable release of MatViz3D is v2.0.1 (Experience a
-              revamped interface, export models in PNG/WRML, control animation
-              speed, and explore enhanced modeling with the new Radial
-              algorithm).
-            </p>
-            <div class="download-button-cont">
-              <a
-                class="download-button"
-                href="https://github.com/MME-NTU-KhPI/MatViz3D/releases/tag/v2.0.1"
-                >Download on GitHub</a
-              >
-            </div>
-            <a href="#section2" class="howto">How to download?</a>
-            <div class="heading-cont2">
-              <p class="subtitle2">Past versions</p>
-              <p class="description">
-                MatViz3D v1.0.0 (<a
-                  href="https://github.com/MME-NTU-KhPI/MatViz3D/releases/tag/v1.0.0"
-                  >https://github.com/MME-NTU-KhPI/MatViz3D/releases/tag/v1.0.0</a
-                >)
-              </p>
-              <p class="description">
-                MatViz3D v2.0.1 (<a
-                  href="https://github.com/MME-NTU-KhPI/MatViz3D/releases/tag/v2.0.1"
-                  >https://github.com/MME-NTU-KhPI/MatViz3D/releases/tag/v2.0.1</a
-                >)
-              </p>
-            </div>
-          </div>
+        <div class="heading-container">
+          <p class="heading">Radial Cellular Automaton</p>
         </div>
-        <div class="page2">
-          <div class="heading-cont">
-            <p class="heading" id="section2">Installation Instructions for MatViz3D</p>
-          </div>
-          <div class="main-cont ml-5 mr-5">
-            <p class="description">
-              1. Follow the provided link to the GitHub repository.<br><br>
-
-              2.On the project page, navigate to the Releases section and select the latest release. <br><br>
-              
-              3. Download the ZIP file named release.zip. <br><br>
-              
-              4. Go to the folder where the archive was downloaded and extract it (right-click the file → "Extract"). <br><br>
-              
-              5.Open the extracted folder, locate the MatViz3D.exe file, and run it to start using the application. <br><br>
+        <div class="infopole">
+          <div class="algo-text-container">
+            <p class="algo-text">
+              Radial cellular automaton is based on the unique principle of
+              determining the neighborhood of a cell in the form of a radial
+              shape. Each cell has 8 neighbors that are located along the
+              diagonals or perpendicular to it. This definition of neighborhood
+              allows to take into account local interactions with cells in close
+              proximity to the grain.<br><br>
+              The main feature of the model is the use
+              of a radial vector that determines the direction of interaction.
+              The radial vector is directed from the central cell to one of its
+              neighbors and affects the state of the cell in the next
+              generation. Taking this vector into account allows us to model
+              anisotropic processes, such as the direction of crystal growth or
+              the influence of external fields that direct the development of
+              the structure.
             </p>
+          </div>
+          <div class="algo-img-container">
+            <img class="algo-img" alt="" src="../img/Radial.png" />
           </div>
         </div>
       </div>
